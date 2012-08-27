@@ -11,6 +11,7 @@
 		FA0EB7C715EC0AB8002BF3BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0EB7C615EC0AB8002BF3BE /* main.m */; };
 		FA0EB7CB15EC0AB8002BF3BE /* BMITime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA0EB7CA15EC0AB8002BF3BE /* BMITime.1 */; };
 		FA0EB7D315EC0B6B002BF3BE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0EB7D215EC0B6B002BF3BE /* Person.m */; };
+		FA0EB7FF15EC1693002BF3BE /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0EB7FE15EC1693002BF3BE /* Employee.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,8 +33,10 @@
 		FA0EB7C615EC0AB8002BF3BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA0EB7C915EC0AB8002BF3BE /* BMITime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BMITime-Prefix.pch"; sourceTree = "<group>"; };
 		FA0EB7CA15EC0AB8002BF3BE /* BMITime.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BMITime.1; sourceTree = "<group>"; };
-		FA0EB7D115EC0B6B002BF3BE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		FA0EB7D215EC0B6B002BF3BE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		FA0EB7D115EC0B6B002BF3BE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = ../Person.h; sourceTree = "<group>"; };
+		FA0EB7D215EC0B6B002BF3BE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
+		FA0EB7FD15EC1693002BF3BE /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		FA0EB7FE15EC1693002BF3BE /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,6 @@
 		FA0EB7B415EC0AB8002BF3BE = {
 			isa = PBXGroup;
 			children = (
-				FA0EB7D115EC0B6B002BF3BE /* Person.h */,
-				FA0EB7D215EC0B6B002BF3BE /* Person.m */,
 				FA0EB7C515EC0AB8002BF3BE /* BMITime */,
 				FA0EB7C215EC0AB8002BF3BE /* Frameworks */,
 				FA0EB7C015EC0AB8002BF3BE /* Products */,
@@ -78,6 +79,10 @@
 		FA0EB7C515EC0AB8002BF3BE /* BMITime */ = {
 			isa = PBXGroup;
 			children = (
+				FA0EB7FD15EC1693002BF3BE /* Employee.h */,
+				FA0EB7FE15EC1693002BF3BE /* Employee.m */,
+				FA0EB7D115EC0B6B002BF3BE /* Person.h */,
+				FA0EB7D215EC0B6B002BF3BE /* Person.m */,
 				FA0EB7C615EC0AB8002BF3BE /* main.m */,
 				FA0EB7CA15EC0AB8002BF3BE /* BMITime.1 */,
 				FA0EB7C815EC0AB8002BF3BE /* Supporting Files */,
@@ -146,6 +151,7 @@
 			files = (
 				FA0EB7C715EC0AB8002BF3BE /* main.m in Sources */,
 				FA0EB7D315EC0B6B002BF3BE /* Person.m in Sources */,
+				FA0EB7FF15EC1693002BF3BE /* Employee.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +244,7 @@
 				FA0EB7D015EC0AB8002BF3BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
