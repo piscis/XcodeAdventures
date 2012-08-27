@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA80EE0615EBBEDA008CD3AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA80EE0515EBBEDA008CD3AB /* Foundation.framework */; };
+		FA80EE0915EBBEDA008CD3AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA80EE0815EBBEDA008CD3AB /* main.m */; };
+		FA80EE0D15EBBEDA008CD3AB /* DaylightSaving.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA80EE0C15EBBEDA008CD3AB /* DaylightSaving.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA80EDFF15EBBEDA008CD3AB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				FA80EE0D15EBBEDA008CD3AB /* DaylightSaving.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA80EE0115EBBEDA008CD3AB /* DaylightSaving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DaylightSaving; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA80EE0515EBBEDA008CD3AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA80EE0815EBBEDA008CD3AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA80EE0B15EBBEDA008CD3AB /* DaylightSaving-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DaylightSaving-Prefix.pch"; sourceTree = "<group>"; };
+		FA80EE0C15EBBEDA008CD3AB /* DaylightSaving.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DaylightSaving.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA80EDFE15EBBEDA008CD3AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA80EE0615EBBEDA008CD3AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA80EDF615EBBEDA008CD3AB = {
+			isa = PBXGroup;
+			children = (
+				FA80EE0715EBBEDA008CD3AB /* DaylightSaving */,
+				FA80EE0415EBBEDA008CD3AB /* Frameworks */,
+				FA80EE0215EBBEDA008CD3AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA80EE0215EBBEDA008CD3AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA80EE0115EBBEDA008CD3AB /* DaylightSaving */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA80EE0415EBBEDA008CD3AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA80EE0515EBBEDA008CD3AB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA80EE0715EBBEDA008CD3AB /* DaylightSaving */ = {
+			isa = PBXGroup;
+			children = (
+				FA80EE0815EBBEDA008CD3AB /* main.m */,
+				FA80EE0C15EBBEDA008CD3AB /* DaylightSaving.1 */,
+				FA80EE0A15EBBEDA008CD3AB /* Supporting Files */,
+			);
+			path = DaylightSaving;
+			sourceTree = "<group>";
+		};
+		FA80EE0A15EBBEDA008CD3AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA80EE0B15EBBEDA008CD3AB /* DaylightSaving-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA80EE0015EBBEDA008CD3AB /* DaylightSaving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA80EE1015EBBEDA008CD3AB /* Build configuration list for PBXNativeTarget "DaylightSaving" */;
+			buildPhases = (
+				FA80EDFD15EBBEDA008CD3AB /* Sources */,
+				FA80EDFE15EBBEDA008CD3AB /* Frameworks */,
+				FA80EDFF15EBBEDA008CD3AB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaylightSaving;
+			productName = DaylightSaving;
+			productReference = FA80EE0115EBBEDA008CD3AB /* DaylightSaving */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA80EDF815EBBEDA008CD3AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Alexander Pirsig";
+			};
+			buildConfigurationList = FA80EDFB15EBBEDA008CD3AB /* Build configuration list for PBXProject "DaylightSaving" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA80EDF615EBBEDA008CD3AB;
+			productRefGroup = FA80EE0215EBBEDA008CD3AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA80EE0015EBBEDA008CD3AB /* DaylightSaving */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA80EDFD15EBBEDA008CD3AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA80EE0915EBBEDA008CD3AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA80EE0E15EBBEDA008CD3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA80EE0F15EBBEDA008CD3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA80EE1115EBBEDA008CD3AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaylightSaving/DaylightSaving-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA80EE1215EBBEDA008CD3AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DaylightSaving/DaylightSaving-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA80EDFB15EBBEDA008CD3AB /* Build configuration list for PBXProject "DaylightSaving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA80EE0E15EBBEDA008CD3AB /* Debug */,
+				FA80EE0F15EBBEDA008CD3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA80EE1015EBBEDA008CD3AB /* Build configuration list for PBXNativeTarget "DaylightSaving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA80EE1115EBBEDA008CD3AB /* Debug */,
+				FA80EE1215EBBEDA008CD3AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA80EDF815EBBEDA008CD3AB /* Project object */;
+}
