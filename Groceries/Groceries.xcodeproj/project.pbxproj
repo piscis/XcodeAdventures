@@ -10,6 +10,7 @@
 		FA80EE5D15EBC68E008CD3AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA80EE5C15EBC68E008CD3AB /* Foundation.framework */; };
 		FA80EE6015EBC68E008CD3AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA80EE5F15EBC68E008CD3AB /* main.m */; };
 		FA80EE6415EBC68E008CD3AB /* Groceries.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA80EE6315EBC68E008CD3AB /* Groceries.1 */; };
+		FA80EE6C15EBCC65008CD3AB /* GroceryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FA80EE6B15EBCC65008CD3AB /* GroceryItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		FA80EE5F15EBC68E008CD3AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA80EE6215EBC68E008CD3AB /* Groceries-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Groceries-Prefix.pch"; sourceTree = "<group>"; };
 		FA80EE6315EBC68E008CD3AB /* Groceries.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Groceries.1; sourceTree = "<group>"; };
+		FA80EE6A15EBCC65008CD3AB /* GroceryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroceryItem.h; sourceTree = "<group>"; };
+		FA80EE6B15EBCC65008CD3AB /* GroceryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroceryItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 				FA80EE5F15EBC68E008CD3AB /* main.m */,
 				FA80EE6315EBC68E008CD3AB /* Groceries.1 */,
 				FA80EE6115EBC68E008CD3AB /* Supporting Files */,
+				FA80EE6A15EBCC65008CD3AB /* GroceryItem.h */,
+				FA80EE6B15EBCC65008CD3AB /* GroceryItem.m */,
 			);
 			path = Groceries;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA80EE6015EBC68E008CD3AB /* main.m in Sources */,
+				FA80EE6C15EBCC65008CD3AB /* GroceryItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
