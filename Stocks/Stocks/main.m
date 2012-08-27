@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "StockHolding.h"
+#import "ForeignStockHolding.h"
 
 int main(int argc, const char * argv[])
 {
@@ -33,6 +34,14 @@ int main(int argc, const char * argv[])
         [stock3 setCurrentSharePrice:49.51];
         [stock3 setNumberOfShares:210];
         [stockDepo addObject:stock3];
+        
+        
+        ForeignStockHolding *stock4 = [[ForeignStockHolding alloc ]init];
+        [stock4 setPurchaseSharePrice:2.3];
+        [stock4 setCurrentSharePrice:4.5];
+        [stock4 setNumberOfShares:40];
+        [stock4 setConversionRate: 0.94];
+        [stockDepo addObject:stock4];
         
         for(StockHolding *stock in stockDepo){
             NSLog(@"Cost In Dollars: %.2f | Value in Dollars: %.2f\n",[stock costInDollars], [stock valueInDollars]);
