@@ -18,6 +18,8 @@ int main(int argc, const char * argv[])
         // Create an array of Employee objects
         NSMutableArray *employees = [[NSMutableArray alloc]init];
         
+        NSMutableDictionary *executives = [[NSMutableDictionary alloc]init];
+        
         for(int i = 0; i< 10; i++) {
 
             // Create an instance of Person
@@ -29,6 +31,14 @@ int main(int argc, const char * argv[])
             [person setEmployeeID:i];
             
             [employees addObject:person];
+            
+            if(i==0){
+                [executives setObject:person forKey:@"CEO"];
+            }
+            
+            if(i==1){
+                [executives setObject:person forKey:@"CEO"];
+            }
         }
         
         NSMutableArray *allAssets = [[NSMutableArray alloc]init];
@@ -66,6 +76,9 @@ int main(int argc, const char * argv[])
         [employees removeObjectAtIndex:5];
         
         NSLog(@"allAssets: %@",allAssets);
+        
+        NSLog(@"executives: %@", executives);
+        executives = nil;
         
         NSPredicate *predicate = [NSPredicate predicateWithFormat:@"holder.valueOfAssets > 70"];
         
