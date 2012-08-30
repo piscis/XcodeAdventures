@@ -12,6 +12,7 @@
 		FA0EB7CB15EC0AB8002BF3BE /* BMITime.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA0EB7CA15EC0AB8002BF3BE /* BMITime.1 */; };
 		FA0EB7D315EC0B6B002BF3BE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0EB7D215EC0B6B002BF3BE /* Person.m */; };
 		FA0EB7FF15EC1693002BF3BE /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0EB7FE15EC1693002BF3BE /* Employee.m */; };
+		FA28287515EF8C09001223F8 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = FA28287415EF8C09001223F8 /* Asset.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		FA0EB7D215EC0B6B002BF3BE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = ../Person.m; sourceTree = "<group>"; };
 		FA0EB7FD15EC1693002BF3BE /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
 		FA0EB7FE15EC1693002BF3BE /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		FA28287315EF8C09001223F8 /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		FA28287415EF8C09001223F8 /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				FA0EB7C615EC0AB8002BF3BE /* main.m */,
 				FA0EB7CA15EC0AB8002BF3BE /* BMITime.1 */,
 				FA0EB7C815EC0AB8002BF3BE /* Supporting Files */,
+				FA28287315EF8C09001223F8 /* Asset.h */,
+				FA28287415EF8C09001223F8 /* Asset.m */,
 			);
 			path = BMITime;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				FA0EB7C715EC0AB8002BF3BE /* main.m in Sources */,
 				FA0EB7D315EC0B6B002BF3BE /* Person.m in Sources */,
 				FA0EB7FF15EC1693002BF3BE /* Employee.m in Sources */,
+				FA28287515EF8C09001223F8 /* Asset.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

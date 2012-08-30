@@ -10,10 +10,18 @@
 #import "Person.h"
 #import "Employee.h"
 
+@class Asset;
+
 @interface Employee : Person
 {
     int employeeID;
+    NSMutableArray *assets;
 }
 
 @property int employeeID;
+@property NSMutableArray *assets;
+
+-(void)addAssetsObject:(Asset *)a;
+-(unsigned int)valueOfAssets;
+
 @end
