@@ -12,6 +12,7 @@
 		FA0EB7EB15EC1010002BF3BE /* Stocks.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FA0EB7EA15EC1010002BF3BE /* Stocks.1 */; };
 		FA0EB7F315EC1054002BF3BE /* StockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0EB7F215EC1054002BF3BE /* StockHolding.m */; };
 		FA0EB80615EC1A65002BF3BE /* ForeignStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0EB80515EC1A65002BF3BE /* ForeignStockHolding.m */; };
+		FA28287D15EF963D001223F8 /* Portfolio.m in Sources */ = {isa = PBXBuildFile; fileRef = FA28287C15EF963D001223F8 /* Portfolio.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		FA0EB7F215EC1054002BF3BE /* StockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockHolding.m; sourceTree = "<group>"; };
 		FA0EB80415EC1A65002BF3BE /* ForeignStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForeignStockHolding.h; sourceTree = "<group>"; };
 		FA0EB80515EC1A65002BF3BE /* ForeignStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForeignStockHolding.m; sourceTree = "<group>"; };
+		FA28287B15EF963D001223F8 /* Portfolio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Portfolio.h; sourceTree = "<group>"; };
+		FA28287C15EF963D001223F8 /* Portfolio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Portfolio.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				FA0EB7F215EC1054002BF3BE /* StockHolding.m */,
 				FA0EB80415EC1A65002BF3BE /* ForeignStockHolding.h */,
 				FA0EB80515EC1A65002BF3BE /* ForeignStockHolding.m */,
+				FA28287B15EF963D001223F8 /* Portfolio.h */,
+				FA28287C15EF963D001223F8 /* Portfolio.m */,
 			);
 			path = Stocks;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 				FA0EB7E715EC1010002BF3BE /* main.m in Sources */,
 				FA0EB7F315EC1054002BF3BE /* StockHolding.m in Sources */,
 				FA0EB80615EC1A65002BF3BE /* ForeignStockHolding.m in Sources */,
+				FA28287D15EF963D001223F8 /* Portfolio.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
